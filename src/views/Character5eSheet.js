@@ -35,6 +35,9 @@ template.innerHTML = `
                 <dt>Proficiency Bonus</dt><dd class="small" data-name="proficiency"></dd>
             </div>
             <div>
+                <dt>Passive Perception</dt><dd><field-editable class="smallinline" data-name="passive_perception"></field-editable></dd>
+            </div>
+            <div>
                 <dt>Inspiration</dt><dd><field-editable data-name="inspiration" class="small"></field-editable></dd>
             </div>
             <div>
@@ -45,10 +48,13 @@ template.innerHTML = `
                 <dd>
                     <field-editable class="smallinline" data-name="hd_cur" placeholder="0" aria-label="Current Hit Dice"></field-editable> <strong>/</strong> <field-editable class="smallinline" data-name="hd_max" placeholder="0" aria-label="Maximum Hit Dice"></field-editable>
                 </dd>
-            </div>
-            <div class="with_icon">
-                <dt>Armor Class</dt><dd><field-editable data-name="armor_class" placeholder="10" class="small"></field-editable></dd>
-            </div>
+                </div>
+                <div>
+                    <dt>Initiative</dt><dd><field-editable class="small" data-name="initiative"></field-editable></dd>
+                </div>
+                <div class="with_icon">
+                    <dt>Armor Class</dt><dd><field-editable data-name="armor_class" placeholder="10" class="small"></field-editable></dd>
+                </div>
             <div class="with_icon">
                 <dt>Hit Points</dt>
                 <dd>

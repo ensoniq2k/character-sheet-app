@@ -33,6 +33,8 @@ export default class Character5e extends Character {
         alignment = '',
         level = 1,
         experience = 0,
+        passive_perception = 0,
+        initiative = 0,
         inspiration = '',
         armor_class = '',
         speed = 30,
@@ -159,6 +161,8 @@ export default class Character5e extends Character {
         this.experience = experience;
         this.inspiration = inspiration;
         this.armor_class = armor_class;
+        this.passive_perception = passive_perception;
+        this.initiative = initiative;
         this.speed = speed;
         this.hp_cur = hp_cur;
         this.hp_max = hp_max;
